@@ -2,9 +2,14 @@
 // Created by Nando on 12/25/17.
 //
 
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
-#include <glm/glm.hpp>
+#include <GL\glew.h>
+#pragma comment(lib, "glew32.lib")
+
+#include <GLFW\glfw3.h>
+#pragma comment(lib, "glfw3.lib")
+#pragma comment(lib, "opengl32.lib")
+
+#include <glm\glm.hpp>
 #include "RenderManager.h"
 
 
